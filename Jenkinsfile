@@ -1,6 +1,8 @@
 pipeline {
   agent any
 
+  def gitUrl, repo
+
   stages {
     stage('Setup Environment') {
       steps {
