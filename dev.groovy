@@ -1,5 +1,1 @@
-stage('dev-embed') {
-  steps {
-    echo 'Deving'
-  }
-}
+echo 'deving'

@@ -3,7 +3,9 @@ pipeline {
   
   stages {
     stage('dev') {
-      load './dev.groovy'
+      steps {
+        load './dev.groovy'
+      }
     }
   }
   post {
