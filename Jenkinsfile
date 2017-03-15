@@ -1,3 +1,1 @@
-pipeline {
-  evaluate('dev.groovy')
-}
+evaluate('dev.groovy')
