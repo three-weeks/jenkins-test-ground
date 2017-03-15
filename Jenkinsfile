@@ -7,7 +7,6 @@ pipeline {
   }
 
   stages {
-
     stage('Setup Environment') {
       steps {
         load './setup.groovy'
