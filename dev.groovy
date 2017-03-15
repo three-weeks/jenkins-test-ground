@@ -1,3 +1,5 @@
-steps {
-  echo 'Deving'
+stage('dev') {
+  steps {
+    echo 'Deving'
+  }
 }
