@@ -1,9 +1,11 @@
 pipeline {
   agent any
 
-  def gitUrl, repo
-
   stages {
+
+    def gitUrl
+    def repo
+
     stage('Setup Environment') {
       steps {
         load './setup.groovy'
