@@ -4,7 +4,7 @@ pipeline {
   stages {
     // "dev.groovy"
     stage('dev') {
-      echo "Deving!"
+      print "Deving!"
     }
   }
 }
