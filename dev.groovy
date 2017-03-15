@@ -1,3 +1,3 @@
-stage('dev') {
-  echo "Entering Dev stage"
+steps {
+  echo 'Deving'
 }
