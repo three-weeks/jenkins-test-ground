@@ -1,1 +1,3 @@
-echo 'deving'
+stage('surge') {
+  echo 'deving'
+}
