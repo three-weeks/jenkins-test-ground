@@ -3,7 +3,9 @@ pipeline {
   
   stages {
     stage('dev') {
-      println 'Deving'
+      steps {
+        echo 'Deving'
+      }
     }
   }
 }
