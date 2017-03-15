@@ -1,1 +1,1 @@
-evaluate(new File("dev.groovy"))
+:load "dev.groovy"
