@@ -1,0 +1,3 @@
+pipeline {
+  evaluate('dev.groovy')
+}
