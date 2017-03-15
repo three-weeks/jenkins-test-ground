@@ -1,1 +1,1 @@
-evaluate('dev.groovy')
+evaluate(new File("dev.groovy"))
