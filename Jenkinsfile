@@ -2,7 +2,9 @@ pipeline {
   agent any
   
   stages {
-    load './dev.groovy'
+    stage('dev') {
+      load './dev.groovy'
+    }
   }
   post {
     always {
