@@ -1,9 +1,5 @@
-stash includes: '*.groovy', name: 'assets', useDefaultExcludes: false
-sh 'pwd'
-sh 'ls'
-// checkout scm
-sh 'pwd'
-sh 'ls'
+// stash includes: '*.groovy', name: 'assets', useDefaultExcludes: false
+checkout scm
 unstash 'assets'
 
 gitUrl = sh (
