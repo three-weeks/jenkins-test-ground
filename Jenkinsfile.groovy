@@ -7,6 +7,9 @@ pipeline {
   }
 
   stages {
+    stage('Unsash') {
+      steps { unstash 'assets' }
+    }
     stage('Setup Environment') {
       steps {
         load './setup.groovy'
